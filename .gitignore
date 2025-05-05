@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# Env / dependencies
+venv/
+.env
+.env.*
+
+# VSCode / IDEs
+.vscode/
+.idea/
+
+# OS / system pliki
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model artifacts
+*.joblib
+*.pkl
+
+# Output / artifacts
+artifacts/
+checkpoints/
+runs/
+logs/
+*.npy
+*.npz
+
+# Compiled files
+*.so
+*.dll
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# MyPy / coverage / pytest
+.mypy_cache/
+.coverage
+htmlcov/
+.pytest_cache/
+
